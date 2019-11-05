@@ -28,6 +28,28 @@
 使用提示: 请先安装httparty模块: gem install httparty
 ```
 
+## 隧道代理部分
+### tps_nethttp_whitelist.rb
+以IP白名单认证的方式使用内置模块`net/http`请求隧道代理服务器, http/https网页均适用
+
+### tps_nethttp_auth.rb
+以用户名密码认证的方式使用内置模块`net/http`请求隧道代理服务器, http/https网页均适用
+
+### tps_httparty_whitelist.rb
+以IP白名单认证的方式使用第三方模块`httparty`请求隧道代理服务器, http/https网页均适用
+```
+使用提示: 请先安装httparty模块: gem install httparty
+```
+
+### tps_httparty_auth.rb
+以用户名密码认证的方式使用第三方模块`httparty`请求隧道代理服务器, http/https网页均适用
+```
+使用提示: 请先安装httparty模块: gem install httparty
+```
+
+
+
+
 ## Socks部分
 
 ### socks_whitelist.rb:
